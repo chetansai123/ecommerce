@@ -1,0 +1,14 @@
+docker ps - list of all running containers
+doker run -pulls image and starts conatainer with a command
+docker stop -stop the container
+docker start-start a container both these commands need id to start or stop a particular container
+docker ps -a -lists running and stopped container
+docker pull - pull the container
+docker images - dives all images in ur machine
+docker netowrk ls -list of available docker networks.
+docker logs - logs or checkall happening inside container through logs -need docker container id
+** docker hub has all the images that we can use to run on our env so that their package or module's all runtime env and their behaviour can be simply copied and by using them we make our custom image on top of it 
+ENV -setting up env variables inside image FROM -getting base image from - install
+docker build -t e-commerce . -her -t for name of image and . implies build image from current directory we can also give path of diff dirs from where which the custom image should be made.
+docker exec -it - to get into container like cd to dir in docker to get into container we use it and -it means interactive terminal
+docker exec -it dockerContainerId /bin/bash or /bin/sh now we can use ls to see all dirs in virtual file system i.e container
